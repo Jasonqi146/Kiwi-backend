@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "Jasonbackend",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "/Users/jasonqi/Desktop/Kiwi-backend-main",
+      "DistributionDir": "/Users/jasonqi/Desktop/Kiwi-backend-main/dist",
+      "BuildCommand": "npm run build app.py",
+      "StartCommand": "python app.py"
+    }
+  }
+}
